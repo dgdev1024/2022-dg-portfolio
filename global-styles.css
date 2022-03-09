@@ -1,0 +1,47 @@
+/** Google Fonts **/
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Sans+Pro:wght@400;600&family=Source+Serif+Pro:wght@600&display=swap");
+
+/** Variables **/
+:root {
+  /** Color Variables **/
+  --color-black: hsl(0, 0%, 0%);
+  --color-dark-blue: hsl(212, 100%, 10%);
+  --color-light-blue: hsl(212, 100%, 90%);
+  --color-silver: hsl(0, 0%, 80%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /** Social Color Variables **/
+  --color-facebook: hsl(221, 44%, 41%);
+  --color-twitter: hsl(197, 100%, 47%);
+  --color-youtube: hsl(2, 64%, 47%);
+  --color-instagram: hsl(11, 90%, 61%);
+
+  /** Font Variables **/
+  --font-family-normal: "Source Sans Pro", sans-serif;
+  --font-family-heading: "Source Serif Pro", serif;
+  --font-family-input: "Source Code Pro", monospace;
+  --font-size-normal: 18px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+
+  /** Time Variables **/
+  --time-transition: 0.3s;
+}
+
+/** CSS Reset **/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  font-family: var(--font-family-normal);
+  font-weight: var(--font-weight-normal);
+
+  transition: var(--time-transition);
+}
+
+/** Base Font Size and Smooth Scrolling **/
+html {
+  font-size: var(--font-size-normal);
+  scroll-behavior: smooth;
+}
