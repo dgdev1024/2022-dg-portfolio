@@ -11,13 +11,20 @@ export default ({ className, backgroundImage, icon, title, children }) => {
     <div className={`${Styles.card} ${className}`}>
       {backgroundImage && (
         <div className={Styles.cardBackgroundImage}>
-          <Image
-            className={Styles.cardBackground}
-            src={backgroundImage}
-            alt={title}
-            layout="fill"
-            objectFit="cover"
-          />
+          {backgroundImage.startsWith("https://codepen.io") ? (
+            <img
+              className={Styles.cardBackground}
+              src={backgroundImage}
+              alt={title}
+            />
+          ) : (
+            <Image
+              className={Styles.cardBackground}
+              src={backgroundImage}
+              alt={title}
+              layout="fill"
+            />
+          )}
         </div>
       )}
       <div className={Styles.cardContainer}>
