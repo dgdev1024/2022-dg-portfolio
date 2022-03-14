@@ -1,3 +1,35 @@
+@keyframes fade-tooltip {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.sidebarToggleTip {
+  position: fixed;
+  top: 64px;
+  width: 100vw;
+  padding: 8px 0px;
+
+  background-color: var(--color-black-faded);
+  color: var(--color-white);
+
+  animation-name: fade-tooltip;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+
+  z-index: 9;
+}
+
 .sidebar {
   display: grid;
   grid-template-rows: 64px calc(100vh - 64px);
@@ -10,7 +42,12 @@
   width: 64px;
   height: 64px;
   overflow: hidden;
-  background-color: var(--color-black);
+  background-color: var(--color-black-faded);
+
+  transition-property: left height;
+  transition-duration: var(--time-transition);
+
+  z-index: 10;
 }
 
 .sidebarShown {
@@ -47,6 +84,7 @@
 
 .sidebarLogo path {
   fill: var(--color-silver);
+  transition: var(--time-transition);
 }
 
 .sidebarToggle:hover .sidebarLogo path {
@@ -55,9 +93,6 @@
 
 .sidebarBody {
   grid-area: body;
-}
-
-.sidebarShown .sidebarBody {
   display: grid;
   grid-template-rows: 1fr 64px;
   grid-template-areas: "navigation" "position-toggle";
@@ -87,6 +122,8 @@
   text-align: center;
   color: var(--color-silver);
   text-decoration: none;
+  transition-property: color;
+  transition-duration: var(--time-transition);
 }
 
 .sidebarLink:hover {
@@ -110,6 +147,7 @@
 }
 
 .sidebarMoveButton {
+  grid-area: position-toggle;
   display: none;
   width: 48px;
   height: 48px;
@@ -118,6 +156,8 @@
   cursor: pointer;
   color: var(--color-silver);
   font-size: 1.5rem;
+  transition-property: color;
+  transition-duration: var(--time-transition);
 }
 
 .sidebarShown .sidebarMoveButton {
@@ -128,7 +168,61 @@
   color: var(--color-white);
 }
 
-@media (min-height: 800px) {
+@media (max-height: 640px) {
+  .sidebarToggleTip {
+    display: none;
+  }
+  .sidebar {
+    grid-template-rows: 64px;
+    grid-template-columns: 64px calc(100vw - 64px);
+    grid-template-areas: "toggle body";
+    justify-items: stretch;
+    align-items: center;
+    width: 100vw;
+    height: 64px;
+  }
+
+  .sidebarShown {
+    height: 64px;
+  }
+
+  .sidebarLeft,
+  .sidebarRight {
+    left: 0px;
+  }
+
+  .sidebarToggle {
+    margin-left: 8px;
+  }
+
+  .sidebarBody {
+    grid-template-rows: 64px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "navigation";
+  }
+
+  .sidebarNavigation {
+    justify-self: start;
+    flex-direction: row;
+    margin-left: 8px;
+  }
+
+  .sidebarNavigationSeparator {
+    margin: 0px 16px;
+    width: 2px;
+    height: 100%;
+  }
+
+  .sidebarLink {
+    margin: 10px 12px;
+  }
+
+  .sidebarMoveButton {
+    display: none !important;
+  }
+}
+
+@media (min-height: 800px) and (min-height: 640px) {
   .sidebarNavigation {
     margin-top: 16px;
   }
@@ -142,8 +236,24 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (min-height: 640px) {
+  .sidebarToggleTip {
+    display: none;
+  }
+
   .sidebar {
     height: 100%;
+  }
+
+  .sidebarMoveButton {
+    display: block;
+  }
+
+  .sidebarBody {
+    display: grid;
+    grid-template-rows: 1fr 64px;
+    grid-template-areas: "navigation" "position-toggle";
+    align-items: center;
+    justify-items: center;
   }
 }

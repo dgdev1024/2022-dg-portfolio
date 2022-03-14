@@ -1,0 +1,699 @@
+{
+  "clients": {
+    "description": "These are projects which I have done for my clients.",
+    "projects": [
+      {
+        "name": "Ami Hendrickson's Website",
+        "description": "The official website for writer, editor, and speaker Ami Hendrickson.",
+        "pageUrl": "https://amihendrickson.com",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666933/2020-dwg-portfolio-website/projects/2018-ami-hendrickson-website.png",
+        "githubUrl": null,
+        "technologies": ["PHP", "Javascript", "SASS/SCSS"],
+        "category": "Full Stack"
+      },
+      {
+        "name": "Riverside United Methodist Church",
+        "description": "The website for the Riverside United Methodist Church in Riverside, MI",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666986/2020-dwg-portfolio-website/projects/2018-rumc-website.png",
+        "pageUrl": "http://riversidemiumc.com",
+        "githubUrl": null,
+        "technologies": [
+          "Javascript ES6",
+          "React JS",
+          "Node.JS",
+          "Express",
+          "Nodemailer"
+        ],
+        "category": "Full Stack"
+      }
+    ]
+  },
+  "frontend-mentor": {
+    "description": "These are my implementations of design challenges created by Frontend Mentor.",
+    "projects": [
+      {
+        "name": "NFT Preview Card Component",
+        "description": "My take on FM's \"NFT Preview Card Component\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/y4ur70omu3nlunz45xkv.jpg",
+        "pageUrl": "https://2021-fm-nft-preview-card-component-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-nft-preview-card-component/tree/master",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Calculator App",
+        "description": "My take on FM's \"Calculator App\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/g5khbr3ngm1nd7sbcluh.jpg",
+        "pageUrl": "https://2021-fm-calculator-app-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-calculator-app/tree/master",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Blogr Landing Page",
+        "description": "My take on FM's \"Blogr Landing Page\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/a128tbm9tit2hadoswet.jpg",
+        "pageUrl": "https://2021-fm-blogr-landing-page-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-blogr-landing-page/tree/master",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Stats Preview Card Component",
+        "description": "My take on FM's \"Stats Preview Card Component\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/dbsf3nxr5gjkifrzseru.jpg",
+        "pageUrl": "https://2021-fm-stats-preview-card-component-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-stats-preview-card-component/tree/master",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "3-Column Preview Card Component",
+        "description": "My take on FM's \"3-Column Preview Card Component\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/xvw0yc6vmsyadumzp34c.jpg",
+        "pageUrl": "https://2021-fm-3-column-preview-card-component-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-3-column-preview-card-component/tree/master",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Crowdfunding Product Page",
+        "description": "My take on FM's \"Crowdfunding Product Page\" challenge, featuring the use of modal boxes and a custom made progress bar.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/z7vxgkgkqyneog8jhldh.jpg",
+        "pageUrl": "https://2021-fm-crowdfunding-product-page-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-crowdfunding-product-page/",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Interactive Pricing Component",
+        "description": "My take on FM's \"Interactive Pricing Component\" challenge, featuring a custom-made slider component, created using browser-dependent CSS properties and pseudo-classes.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/n8fenetglxfp7xie5ijd.jpg",
+        "pageUrl": "https://2021-fm-interactive-pricing-component-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-interactive-pricing-component/",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Loopstudios Landing Page",
+        "description": "My take on FM's \"Loopstudios Landing Page\" challenge. This one makes heavy use of dynamically-triggered animations, and was a really fun one to do!",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/mxtvksrqxnbkgpqluxv3.jpg",
+        "pageUrl": "https://2021-fm-loopstudios-landing-page-dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-loopstudios-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Launch Countdown Timer",
+        "description": "My take on FM's \"Launch Countdown Timer\" challenge. I had to compromise a little on the timer display animation, but I'm pretty happy with what I was able to come up with.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/zejvdlqnkzxmgv2bisrt.jpg",
+        "pageUrl": "https://2021-fm-launch-countdown-timer.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2021-fm-launch-countdown-timer",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Todo App",
+        "description": "My take on FM's take on the quintessential exercise project, the Todo App. There are plenty of nice UX features here. I like what I did with the checkboxes, especially. Todo items also persist in the browser's 'localStorage' as well.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/oy1kmympvq5mybbskqwp.jpg",
+        "pageUrl": "https://2020-fm-todo-app.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-todo-app",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Profile Card Component",
+        "description": "My implementation of FM's \"Profile Card Component\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_800/Screenshots/bm9z1qsnjsdulxssvlsq.jpg",
+        "pageUrl": "https://2020-fm-profile-card-component.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-profile-card-component",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Testimonials Grid Section",
+        "description": "My implementation of FM's \"Testimonials Grid Section\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/gkgphdkeq3a3edpdn354.jpg",
+        "pageUrl": "https://2020-fm-testimonials-grid-section.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-testimonials-grid-section",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "FAQ Accordion Card",
+        "description": "This take on FM's \"FAQ Accordion Challenge\" features interactive, expandable FAQ items implemented with no Javascript, and an interesing setup of pseudo-elements and background-images.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/kiv3f62pjjkx26tv2ydd.jpg",
+        "pageUrl": "https://2020-fm-faq-accordion-card.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-faq-accordion-card",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Room Homepage",
+        "description": "My implementation of FM's \"Room Homepage\" challenge features a CSS Grid-powered slideshow that runs on a timer.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/dy4uswbswce9vlfol3sv.jpg",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-room-homepage",
+        "pageUrl": "https://2020-fm-room-homepage.dgdev1024.vercel.app/",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Social Proof Section",
+        "description": "My implementation of Frontend Mentor's \"Social Proof Section\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/kxmbmnysjupi0jgjvtzn.jpg",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-social-proof-section",
+        "pageUrl": "https://2020-fm-social-proof-section.dgdev1024.vercel.app/",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "IP Address Tracker",
+        "description": "Using an external API and the Leaflet map-drawing library, this app draws a map of an approximate location based on an IP address or domain name.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/akgpezxxcsxktddcnbgw.jpg",
+        "pageUrl": "https://2020-fm-ip-address-tracker.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-ip-address-tracker",
+        "technologies": ["React.JS", "SASS", "Leaflet.js"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Chat App CSS Illustration",
+        "description": "My implementation of the 'Chat App CSS Illustration' challenge. The smartphone illustartion shown in this project was created almost entirely using HTML and CSS, instead of an image asset.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/ebqwiudpiqwfuubwifge.jpg",
+        "pageUrl": "https://2020-fm-chat-app-css-illustration.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-chat-app-css-illustration",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Single Price Grid Component",
+        "description": "My implementation of Frontend Mentor's \"Single Price Grid Component\" challenge. Demonstrates the use of CSS Grid to organize cards based on screen size.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/obsxbwl2vebhlo93m14f.jpg",
+        "pageUrl": "https://2020-fm-single-price-grid-component.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-single-price-grid-component",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Base Apparel Coming Soon Page",
+        "description": "My implementation of Frontend Mentor's \"Base Apparel Coming Soon Page\" challenge. Demonstrates the use of CSS Grid, stylish text inputs, and Javascript email validation.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/gduggsnv2a507qdg97ui.jpg",
+        "pageUrl": "https://2020-fm-base-apparel-coming-soon-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-base-apparel-coming-soon-page",
+        "technologies": ["HTML5", "CSS3", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Ping Coming Soon Page",
+        "description": "My implementation of Frontend Mentor's \"Ping Coming Soon Page\" challenge. Demonstrates basic CSS Flexbox usage and Javascript email validation.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/qs3tmqtcw6kok3awdfhe.jpg",
+        "pageUrl": "https://2020-fm-ping-coming-soon-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-ping-coming-soon-page",
+        "technologies": ["HTML5", "CSS", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "REST Countries API With Color Theme Switcher",
+        "description": "My implementation of the \"Rest Countries API With Color Theme Switcher\" challenge. Features CSS Grid, API fetching, and debounced search.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/txii4keyptsrr6zqubjy.jpg",
+        "pageUrl": "https://2020-fm-rest-countries-api-with-color-theme-switcher-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-rest-countries-api-with-color-theme-switcher",
+        "technologies": ["React.JS", "SASS/SCSS", "Axios"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Rock, Paper, Scissors",
+        "description": "My take on the \"Rock, Paper, Scissors Game\" challenge. Features heavy use of React Context, CSS Grid, absolute/relative positioning, radial gradients, and local storage persistence.",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594668336/2020-dwg-portfolio-website/projects/2020-rock-paper-scissors.png",
+        "pageUrl": "https://2020-fm-rock-paper-scissors-game-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-rock-paper-scissors-game",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Bookmark Landing Page",
+        "description": "My implementation of the \"Bookmark Landing Page\" challenge. Features programmatic backgrounds using CSS psuedo-elements, tabbed subsections, and an FAQ accordion utilizing CSS transforms.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/qgtciyhxzdjcizmcyetz.jpg",
+        "pageUrl": "https://2020-fm-bookmark-landing-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-bookmark-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Article Preview Component",
+        "description": "My implementation of the \"Article Preview Component\" challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/spem16cymcgrfriij3sw.jpg",
+        "pageUrl": "https://2020-fm-article-preview-component-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-article-preview-component",
+        "technologies": ["HTML5", "CSS", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "URL Shortening API Landing Page",
+        "description": "My implementation of the \"URL Shortening API Landing Page\" challenge. Features the use of an external URL shortening API and persistence of shortened links using the 'localStorage' mechanic.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/jfer33srovbybulfwpae.jpg",
+        "pageUrl": "https://2020-fm-url-shortening-api-landing-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-url-shortening-api-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS", "Axios"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Manage Landing Page",
+        "description": "My implementation of the 'Manage Landing Page' challenge. Features the use of a React.js effect hook to create a timed testimonial slider, and the use of multiple background image positionings.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/llv2v8x0tltozd0vbo7h.jpg",
+        "pageUrl": "https://2020-fm-manage-landing-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-manage-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Easybank Landing Page",
+        "description": "My implementation of the 'Easybank Landing Page' challenge; my first project utilizing the Block-Element-Modifier (BEM) methodology in CSS.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/k9ofowjc69grse4bryid.jpg",
+        "pageUrl": "https://2020-fm-easybank-landing-page-git-master.dgdev1024.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-easybank-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Job Listings With Filtering",
+        "description": "My implementation of the 'Job Listingns With Filtering' challenge. Features heavy use of React components with props.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/pgxjipcvbfisjyfjwuur.jpg",
+        "pageUrl": "https://2020-fm-job-listings-with-filtering-git-master.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-job-listings-with-filtering",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Huddle Landing Page with Curved Sections",
+        "description": "My implementation of the 'Huddle Landing Page with Curved Sections' challenge. The curved section backgrounds are achieved using CSS psuedo-elements.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/epfodej9naolviqpr8ql.jpg",
+        "pageUrl": "https://2020-fm-huddle-landing-page-with-curved-sections.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-huddle-landing-page-with-curved-sections",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Fylo Dark Theme Landing Page",
+        "description": "My implementation of the 'Fylo Dark Theme Landing Page' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/rc075oe86wrqjff4krqm.jpg",
+        "pageUrl": "https://2020-fm-fylo-dark-theme-landing-page.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-fylo-dark-theme-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Clipboard Landing Page",
+        "description": "My implementation of the 'Clipboard Landing Page' challenge. Features heavy use of CSS animations.",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594668510/2020-dwg-portfolio-website/projects/2020-clipboard.png",
+        "pageUrl": "https://2020-fm-clipboard-landing-page.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-clipboard-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Fylo Data Storage Component",
+        "description": "My implementation of the 'Fylo Data Storage Component' challenge. Features animations driven by CSS, Javascript, and HTML data attributes.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/yfriklljld1axaz3t01m.jpg",
+        "pageUrl": "https://2020-fm-fylo-data-storage-component.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-fylo-data-storage-component",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Project Tracking Intro Component",
+        "description": "My implementation of the 'Project Tracking Intro Component' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/gxi22bmej6vienokvntq.jpg",
+        "pageUrl": "https://2020-fm-project-tracking-intro-component-git-master.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-project-tracking-intro-component",
+        "technologies": ["HTML5", "CSS", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Pricing Component With Toggle",
+        "description": "My implementation of the 'Pricing Component With Toggle' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/ow86i6agk82uf6ciobgc.jpg",
+        "pageUrl": "https://2020-fm-pricing-component-with-toggle.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-pricing-component-with-toggle",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Insure Landing Page",
+        "description": "My implementation of the 'Insure Landing Page' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/cch3mzzcaz8dktwdkqkb.jpg",
+        "pageUrl": "https://2020-fm-insure-landing-page.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-insure-landing-page",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Social Media Dashboard with Theme Switcher",
+        "description": "My take on the 'Social Media Dashboard with Theme Switcher' challenge. Features a smooth toggle between light and dark mode using CSS transitions.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/r37urwavfkubwd6s8asu.jpg",
+        "pageUrl": "https://2020-fm-social-media-dashboard-with-theme-switcher.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-social-media-dashboard-with-theme-switcher",
+        "technologies": ["React.JS", "SASS/SCSS"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Fylo Landing Page with Two Column Layout",
+        "description": "My take on the 'Fylo Landing Page with Two Column Layout' challenge. Features heavy use of CSS Grid and Flexbox.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/yms4xt9mfu6rkvoc4tgn.jpg",
+        "pageUrl": "https://2020-fm-fylo-landing-page-with-two-column-layout.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-fylo-landing-page-with-two-column-layout",
+        "technologies": ["HTML5", "CSS3", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Huddle Landing Page with Single Introductory Section",
+        "description": "My implementation of the 'Huddle Landing Page with Single Introductory Section' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/dvkkg3az4r9aqzld9izt.jpg",
+        "pageUrl": "https://2020-fm-huddle-landing-page-single-intro-section.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-huddle-landing-page-with-single-introductory-section",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Huddle Landing Page with Alternating Feature Blocks",
+        "description": "My take on the 'Huddle Landing Page with Alternating Feature Blocks' challenge.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/asw4eilmdiv5gybgf0cz.jpg",
+        "pageUrl": "https://2020-fm-huddle-landing-page.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-huddle-landing-page-with-alternating-feature-blocks",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Intro Component With Signup Form",
+        "description": "My implementation of the 'Intro Component With Signup Form' challenge. Features input validation with regular expressions.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/x4udor4tzzj5d323asby.jpg",
+        "pageUrl": "https://2020-fm-intro-component-with-signup-form.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-intro-component-with-signup-form",
+        "technologies": ["HTML5", "CSS3", "Javascript"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Four Card Feature Section",
+        "description": "My take on the 'Four Card Feature Section' challenge. ",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/tuv0k1tut8tayempw65n.jpg",
+        "pageUrl": "https://2020-fm-four-card-feature-section.dgdev1024.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-four-card-feature-section",
+        "technologies": ["HTML5", "CSS3"],
+        "category": "Frontend"
+      },
+      {
+        "name": "Coding Bootcamp Testimonial Slider",
+        "description": "My implementation of the 'Coding Bootcamp Testimonial Slider' challenge. Uses CSS transitions to smoothly switch between testimonials.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,g_north,w_800,h_600,c_fill/Screenshots/fp1ym3luq0k67nk0gcpo.jpg",
+        "pageUrl": "https://2020-fm-coding-bootcamp-testimonial-slider-jklyfi2xf.now.sh/",
+        "githubUrl": "https://github.com/dgdev1024/2020-fm-coding-bootcamp-testimonial-slider",
+        "technologies": ["HTML5", "CSS3", "Javascript"],
+        "category": "Frontend"
+      }
+    ]
+  },
+  "other-exercises": {
+    "description": "These are some other, older projects which I have done to hone my web development expertise.",
+    "projects": [
+      {
+        "name": "Tribute Page (2019)",
+        "description": "An implementation of FreeCodeCamp's Tribute Page Project, paying homage to the life (so far) of C++ creator Bjarne Stroustrup.",
+        "technologies": ["HTML5", "CSS3"],
+        "pageUrl": "https://codepen.io/dgdev1024/full/JQQpYE",
+        "image": "https://codepen.io/dgdev1024/pen/JQQpYE/image/large.png",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Survey Form (2019)",
+        "description": "An implementation of FreeCodeCamp's Survey Form Project, asking rock and metal guitarists about their musical and instrument preferences.",
+        "technologies": ["HTML5", "CSS3"],
+        "pageUrl": "https://codepen.io/dgdev1024/full/ageRRp",
+        "image": "https://codepen.io/dgdev1024/pen/ageRRp/image/large.png",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Binary to Decimal Converter",
+        "description": "An exercise project which allows users to convert binary numbers to decimal.",
+        "technologies": ["HTML5", "CSS3", "Javascript ES6"],
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666955/2020-dwg-portfolio-website/projects/2020-bin-to-dec.png",
+        "githubUrl": "https://github.com/dgdev1024/2019-binary-to-decimal",
+        "pageUrl": "https://dwg-bin-to-dec.glitch.me",
+        "category": "Frontend"
+      },
+      {
+        "name": "Border Radius Previewer",
+        "description": "A simple web app allowing users to manipulate the CSS3 border-raduis property of a box.",
+        "technologies": ["HTML5", "CSS3", "Javascript ES6", "React.JS"],
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594667035/2020-dwg-portfolio-website/projects/2019-border-radius-previewer.png",
+        "pageUrl": "https://dg-border-radius.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/2019-border-radius-previewer",
+        "category": "Frontend"
+      },
+      {
+        "name": "Christmas Lights!",
+        "description": "An exercise project which allows users to enjoy a nice Christmas lights display.",
+        "technologies": ["HTML5", "CSS3", "Javascript ES6"],
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666879/2020-dwg-portfolio-website/projects/2019-christmas-lights.png",
+        "pageUrl": "https://dg-christmas-lights.glitch.me",
+        "githubUrl": "https://github.com/dgdev1024/2019-practice-christmas-lights",
+        "category": "Frontend"
+      },
+      {
+        "name": "Color Cycle App",
+        "description": "An exercise project which allows users to cycle through color schemes using customized color increments.",
+        "technologies": ["HTML5", "CSS3", "Javascript ES6"],
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666800/2020-dwg-portfolio-website/projects/2020-color-cycle-app.png",
+        "pageUrl": "https://2020-color-cycle-app.glitch.me",
+        "githubUrl": "https://github.com/dgdev1024/2020-color-cycle-app",
+        "category": "Frontend"
+      },
+      {
+        "name": "Countdown Timer",
+        "description": "A practice project which allows users to create events and see countdown timers to those events.",
+        "technologies": ["HTML5", "CSS3", "Javascript ES6+", "React.JS"],
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594666805/2020-dwg-portfolio-website/projects/2020-countdown-timer.png",
+        "pageUrl": "https://2020-countdown-timer.glitch.me",
+        "githubUrl": "https://github.com/dgdev1024/2020-countdown-timer",
+        "category": "Frontend"
+      }
+    ]
+  },
+  "legacy-projects": {
+    "description": "These are projects which date back to 2018 or earlier. These projects are no longer maintained and some of them are no longer live, but are posted here for historical purposes.",
+    "projects": [
+      {
+        "name": "Random Quote Generator",
+        "description": "This site allows you to roll a random, inspiring quote on demand. The quotes are brought to you by Forismatic.",
+        "technologies": ["Bootstrap", "Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/NdeGJr/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/NdeGJr",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Wikipedia Search Viewer",
+        "description": "This site allows you to search for Wikipedia articles. Wikipedia's API will fetch the articles for you.",
+        "technologies": ["Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/pRBGKa/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/pRBGKa",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Twitch Streamer Status Viewer",
+        "description": "This site uses Twitch's API to show the online status of Twitch's currently featured streamers, as well as a select few others.",
+        "technologies": ["Bootstrap", "Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/YNbNZG/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/YNbNZG",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Basic Calculator",
+        "description": "This is a basic calculator. It features basic math functions (add, subtract, etc.), left-to-right calculation, and a rudimentary memory feature.",
+        "technologies": ["Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/MpYmJd/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/MpYmJd",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Pomodoro Clock",
+        "description": "Here's a tool that can help you pace your work time and your break time. Set up the work and break timers, and they will alternate between each other when their time lapses.",
+        "technologies": ["Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/oZXLay/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/oZXLay",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Tic Tac Toe",
+        "description": "This is a basic implementation of the game of Tic Tac Toe, which utilizes RNG-driven AI.",
+        "technologies": ["Javascript", "JQuery"],
+        "image": "https://codepen.io/dgdev1024/pen/EWPXQP/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/EWPXQP",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Simon",
+        "description": "This is a clone of the classic electronic memory game, Simon. For this project I decided to use regular DOM manipulation, instead of JQuery.",
+        "technologies": ["Javascript"],
+        "image": "https://codepen.io/dgdev1024/pen/aJdjEd/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/aJdjEd",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Todo List",
+        "description": "This is a simple, volatile todo list. Here, you can add, remove, and manage tasks. This is my first effort with ES6, React, and SASS.",
+        "technologies": ["Javascript ES6", "React JS", "SASS"],
+        "image": "https://codepen.io/dgdev1024/pen/OppVoB/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/OppVoB",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Markdown Previewer",
+        "description": "Here is an editor that allows you to write and preview Markdown code. Write your code in the left pane, and preview it in the right.",
+        "technologies": ["Javascript ES6", "React JS", "SASS", "Marked"],
+        "image": "https://codepen.io/dgdev1024/pen/JWWWYw/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/JWWWYw",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Camper Leaderboard",
+        "description": "This is a leaderboard of the most active users on freeCodeCamp, an interactive web platform for learning code.",
+        "technologies": ["Javascript ES6", "React JS", "SASS", "Axios"],
+        "image": "https://codepen.io/dgdev1024/pen/ZeJJYW/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/ZeJJYW",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Recipe Box",
+        "description": "This app allows yuo to keep, view, manage, manipulate, and save recipes that you come up with. This app takes advantage of the browser's localStorage object in order to save the recipes.",
+        "technologies": ["Javascript ES6", "React JS", "SASS"],
+        "image": "https://codepen.io/dgdev1024/pen/YZYxMe/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/YZYxMe",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Game of Life",
+        "description": "An implementation of John Conway's Game of Life algorithm. Set up the board, or generate a random board, and hit the Play button to see what happens!",
+        "technologies": ["Javascript ES6", "React JS"],
+        "image": "https://codepen.io/dgdev1024/pen/LWrYwg/image/large.png",
+        "pageUrl": "https://codepen.io/dgdev1024/full/LWrYwg",
+        "githubUrl": null,
+        "category": "Frontend"
+      },
+      {
+        "name": "Timestamp Microservice",
+        "description": "Generates a natural date and a UNIX timestamp from a given date string.",
+        "technologies": ["Javascript ES6", "Node.js", "Express"],
+        "pageUrl": "https://dwg-timestamp.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/Timestamp_Microservice",
+        "image": null,
+        "category": "Backend"
+      },
+      {
+        "name": "Request Header Parser Microservice",
+        "description": "Parses an HTTP request header to determine the client's language, operating system, and IP address.",
+        "technologies": ["Javascript ES6", "Node.js", "Express"],
+        "pageUrl": "https://identify-me.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/Header_Parser",
+        "image": null,
+        "category": "Backend"
+      },
+      {
+        "name": "URL Shortener Microservice",
+        "description": "Generates a short URL that points to the destination of your choice.",
+        "technologies": [
+          "Javascript ES6",
+          "Node.js",
+          "MongoDB",
+          "Mongoose",
+          "Express"
+        ],
+        "pageUrl": "https://smurl.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/URL_Shortener",
+        "image": null,
+        "category": "Backend"
+      },
+      {
+        "name": "File Metadata Microservice",
+        "description": "Displays the metadata details of an uploaded file, including MIME type and file size.",
+        "technologies": [
+          "Javascript ES6",
+          "React JS",
+          "SASS",
+          "Node.js",
+          "Express",
+          "Multer"
+        ],
+        "pageUrl": "https://metafile.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/File_Metadata_Analyzer",
+        "image": null,
+        "category": "Backend"
+      },
+      {
+        "name": "Duin Duin Duin",
+        "description": "A website for finding nearby nightlife venues and coordinating a good night out.",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594667115/2020-dwg-portfolio-website/projects/2017-duin-website.png",
+        "pageUrl": null,
+        "githubUrl": "https://github.com/dgdev1024/Duin_Nightlife_Coordination_App",
+        "technologies": [
+          "Typescript",
+          "Javascript ES6",
+          "Angular 4",
+          "Node.JS",
+          "Express",
+          "Mongoose",
+          "Nodemailer",
+          "Passport",
+          "Yelp Fusion"
+        ],
+        "category": "Full Stack"
+      },
+      {
+        "name": "Votany",
+        "description": "A website for creating, managing, and voting on polls.",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594667180/2020-dwg-portfolio-website/projects/2018-votany-website.png",
+        "pageUrl": null,
+        "githubUrl": "https://github.com/dgdev1024/Votany_Angular",
+        "technologies": [
+          "Typescript",
+          "Javascript ES6",
+          "Angular 4",
+          "Node.JS",
+          "Express",
+          "Mongoose",
+          "Nodemailer",
+          "Passport"
+        ],
+        "category": "Full Stack"
+      },
+      {
+        "name": "The Daily Markdown",
+        "description": "A basic blogging website featuring articles written using Markdown syntax.",
+        "image": "https://res.cloudinary.com/dgdev1024/image/upload/v1594667224/2020-dwg-portfolio-website/projects/2017-tdmd-website.png",
+        "pageUrl": null,
+        "githubUrl": "https://github.com/dgdev1024/Markdown_Blog",
+        "technologies": [
+          "Typescript",
+          "Javascript ES6",
+          "Angular 4",
+          "Node.JS",
+          "Express",
+          "Mongoose",
+          "Nodemailer",
+          "Passport"
+        ],
+        "category": "Full Stack"
+      }
+    ]
+  }
+}

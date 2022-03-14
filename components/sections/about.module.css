@@ -1,0 +1,40 @@
+.aboutSection {
+  height: auto;
+  min-height: unset;
+  padding: 32px;
+}
+
+.aboutCardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.aboutCardBlue {
+  background-color: var(--color-light-blue-faded) !important;
+}
+
+.aboutCardGreen {
+  background-color: var(--color-light-green-faded) !important;
+}
+
+.aboutCardRed {
+  background-color: var(--color-light-red-faded) !important;
+}
+
+.aboutResumeButton {
+  margin-top: 8px;
+}
+
+@media (min-width: 800px) {
+  .aboutCardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutCardContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

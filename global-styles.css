@@ -1,14 +1,22 @@
 /** Google Fonts **/
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Sans+Pro:wght@400;600&family=Source+Serif+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Sans+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@600&display=swap");
 
 /** Variables **/
 :root {
   /** Color Variables **/
   --color-black: hsl(0, 0%, 0%);
+  --color-black-faded: hsla(0, 0%, 0%, 0.8);
+  --color-dark-gray: hsl(0, 0%, 20%);
   --color-dark-blue: hsl(212, 100%, 10%);
+  --color-dark-green: hsl(120, 49%, 18%);
+  --color-dark-red: hsl(0, 49%, 18%);
   --color-light-blue: hsl(212, 100%, 90%);
+  --color-light-blue-faded: hsla(212, 100%, 90%, 0.8);
+  --color-light-red-faded: hsla(0, 49%, 82%, 0.8);
+  --color-light-green-faded: hsla(120, 49%, 82%, 0.8);
   --color-silver: hsl(0, 0%, 80%);
   --color-white: hsl(0, 0%, 100%);
+  --color-white-faded: hsla(0, 0%, 100%, 0.8);
 
   /** Social Color Variables **/
   --color-facebook: hsl(221, 44%, 41%);
@@ -18,7 +26,7 @@
 
   /** Font Variables **/
   --font-family-normal: "Source Sans Pro", sans-serif;
-  --font-family-heading: "Source Serif Pro", serif;
+  --font-family-heading: "Source Code Pro", monospace;
   --font-family-input: "Source Code Pro", monospace;
   --font-size-normal: 18px;
   --font-weight-normal: 400;
@@ -35,13 +43,176 @@
   box-sizing: border-box;
 
   font-family: var(--font-family-normal);
-  font-weight: var(--font-weight-normal);
+  /* font-weight: var(--font-weight-normal); */
 
-  transition: var(--time-transition);
+  /* transition: var(--time-transition); */
 }
 
 /** Base Font Size and Smooth Scrolling **/
 html {
   font-size: var(--font-size-normal);
   scroll-behavior: smooth;
+  background-color: var(--color-silver);
+}
+
+/** Section **/
+.section {
+  height: 100vh;
+  min-height: 640px;
+}
+
+.sectionContainer {
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.heading {
+  font-family: var(--font-family-heading);
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.headingVerySmall {
+  font-size: 1rem;
+}
+
+.headingSmall {
+  font-size: 1.5rem;
+}
+
+.headingLarge {
+  font-size: 2rem;
+}
+
+.headingVeryLarge {
+  font-size: 2.25rem;
+}
+
+.headingLeft {
+  text-align: left !important;
+}
+
+.headingCenter {
+  text-align: center !important;
+}
+
+.headingLight {
+  font-weight: var(--font-weight-normal);
+}
+
+.headingUppercase {
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.textSmall {
+  font-size: 0.75rem;
+}
+
+.textLarge {
+  font-size: 1.25rem;
+}
+
+.textItalic {
+  font-style: italic;
+}
+
+.textCenter {
+  text-align: center !important;
+}
+
+.textLeft {
+  text-align: left !important;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: block;
+  padding: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: transparent;
+  border: 2px solid var(--color-black);
+  transition-property: color background-color;
+  transition-duration: var(--time-transition);
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+@media (min-width: 500px) {
+  .sectionContainer {
+    width: calc(100vw - 128px);
+  }
+}
+
+@media (min-width: 600px) {
+  .sectionContainer {
+    width: calc(100vw - 162px);
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 800px) {
+  .heading {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .headingVerySmall {
+    font-size: 1.25rem;
+  }
+
+  .headingSmall {
+    font-size: 1.5rem;
+  }
+
+  .headingLarge {
+    font-size: 2.5rem;
+  }
+
+  .headingVeryLarge {
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .textSmall {
+    font-size: 1rem;
+  }
+
+  .textLarge {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .heading {
+    text-align: left;
+  }
+
+  .text {
+    text-align: left;
+  }
 }

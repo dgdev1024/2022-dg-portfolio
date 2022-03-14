@@ -1,0 +1,30 @@
+.projectsSection {
+  height: auto;
+  min-height: unset;
+  padding: 32px;
+}
+
+.projectsCardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.projectsCardButton {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .projectsCardContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projectsCardContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

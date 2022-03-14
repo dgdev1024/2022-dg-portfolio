@@ -1,0 +1,79 @@
+.card {
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+  background-color: var(--color-white-faded);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardBackgroundImage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: var(--time-transition);
+}
+
+.card:hover .cardBackgroundImage {
+  opacity: 0.2;
+}
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  height: 100%;
+  padding: 16px;
+  z-index: 2;
+}
+
+.cardTitleContainer {
+  display: grid;
+  place-items: center;
+  gap: 8px;
+}
+
+.cardTitleContainer svg {
+  font-size: 2.5rem;
+}
+
+.cardTitleContainerWithBackgroundImage {
+  padding: 8px;
+  background-color: var(--color-white-faded);
+  transition: var(--time-transition);
+}
+
+.card:hover .cardTitleContainerWithBackgroundImage,
+.cardContianer:hover .cardTitleContainerWithBackgroundImage {
+  background-color: transparent;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  gap: 8px;
+
+  max-height: 0px;
+  visibility: hidden;
+  opacity: 0;
+
+  transition-property: max-height opacity;
+  transition-duration: var(--time-transition);
+}
+
+.card:hover .cardBody,
+.cardContainer:hover .cardBody {
+  max-height: 400px;
+  visibility: visible;
+  opacity: 1;
+}
