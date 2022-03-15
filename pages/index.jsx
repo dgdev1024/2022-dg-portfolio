@@ -5,9 +5,9 @@
  */
 
 import Head from "next/head";
-import HomeSection from "../components/sections/home";
-import AboutSection from "../components/sections/about";
-import ProjectsSection from "../components/sections/projects";
+import HeroSection from "../components/index-page/hero";
+import AboutSection from "../components/index-page/about";
+import ProjectsSection from "../components/index-page/projects";
 
 export default ({ randomProjects }) => (
   <>
@@ -15,7 +15,7 @@ export default ({ randomProjects }) => (
       <title>Dennis Griffin - Web Developer and Designer</title>
       <link rel="shortcut icon" href="/images/favicon.ico" />
     </Head>
-    <HomeSection />
+    <HeroSection />
     <AboutSection />
     <ProjectsSection randomProjects={randomProjects} />
   </>

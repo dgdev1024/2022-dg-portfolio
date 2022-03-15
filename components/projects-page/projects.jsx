@@ -1,45 +1,25 @@
 /**
- * @file components/sections/projects.jsx
+ * @file components/projects-page/projects.jsx
  */
 
-import {
-  faLaptop,
-  faServer,
-  faGlobe,
-  faQuestion,
-} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon as Fa } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
+import { getCategoryIcon } from "../../lib/category-icon";
 import Card from "../card";
 import Styles from "./projects.module.css";
 
-export default ({ randomProjects }) => {
-  const getCategoryIcon = (categoryString) => {
-    switch (categoryString) {
-      case "Frontend":
-        return faLaptop;
-      case "Backend":
-        return faServer;
-      case "Full Stack":
-        return faGlobe;
-      default:
-        return faQuestion;
-    }
-  };
-
+export default ({ projects, lastPage }) => {
   return (
-    <section className={`section ${Styles.projectsSection}`} id="projects">
+    <section className={`section ${Styles.projectsSection}`}>
       <div className={`sectionContainer ${Styles.projectsSectionContainer}`}>
-        <h2 className={`heading headingCenter`}>My Projects</h2>
-        <p className="text textItalic textCenter">
-          Here are just a few randomly-selected projects of mine. Refresh the
-          page or click on "See All Projects" to see more!
-        </p>
-        <div className={Styles.projectsCardContainer}>
-          {randomProjects.map((project, index) => (
+        <div className={Styles.projectsCardsContainer}>
+          {projects.map((project, index) => (
             <Card
-              icon={getCategoryIcon(project.category)}
+              key={index}
               title={project.name}
               backgroundImage={project.image}
-              key={index}
+              icon={getCategoryIcon(project.category)}
+              className={Styles.projectCard}
             >
               <p className="text textCenter">{project.description}</p>
               <p className="text textCenter textItalic">
@@ -69,6 +49,7 @@ export default ({ randomProjects }) => {
           ))}
         </div>
       </div>
+      {lastPage === false && <Fa icon={faSpinner} />}
     </section>
   );
 };

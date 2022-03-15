@@ -1,0 +1,52 @@
+.heroSection {
+  height: auto;
+  min-height: unset;
+  padding: 32px 0px;
+}
+
+.heroSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.heroCategoryControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 16px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.heroCategoryButton {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.heroCategoryImage svg {
+  font-size: 4rem;
+}
+
+.heroCaption {
+  display: grid;
+  place-items: center;
+  gap: 16px;
+}
+
+@media (min-width: 1000px) {
+  .heroCategoryImage svg {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroCategoryImage svg {
+    font-size: 6rem;
+  }
+}

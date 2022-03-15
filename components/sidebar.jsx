@@ -2,6 +2,7 @@
  * @file components/sidebar.jsx
  */
 
+import Link from "next/link";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -55,38 +56,45 @@ export default () => {
         </button>
         <div className={Styles.sidebarBody}>
           <nav className={Styles.sidebarNavigation}>
-            <a
-              className={Styles.sidebarLink}
-              href="#home"
-              aria-label="Home Page"
-              title="Home Page"
-            >
-              <FontAwesomeIcon icon={faHouse} />
-            </a>
-            <a
-              className={Styles.sidebarLink}
-              href="#about"
-              aria-label="About Me"
-              title="About Me"
-            >
-              <FontAwesomeIcon icon={faPerson} />
-            </a>
-            <a
-              className={Styles.sidebarLink}
-              href="#projects"
-              aria-label="My Projects"
-              title="My Projects"
-            >
-              <FontAwesomeIcon icon={faCode} />
-            </a>
-            <a
-              className={Styles.sidebarLink}
-              href="#contact"
-              aria-label="Contact Me"
-              title="Contact Me"
-            >
-              <FontAwesomeIcon icon={faContactBook} />
-            </a>
+            <Link href="/">
+              <a
+                className={Styles.sidebarLink}
+                aria-label="Home Page"
+                title="Home Page"
+              >
+                <FontAwesomeIcon icon={faHouse} />
+              </a>
+            </Link>
+            <Link href="/#about">
+              <a
+                className={Styles.sidebarLink}
+                href="#about"
+                aria-label="About Me"
+                title="About Me"
+              >
+                <FontAwesomeIcon icon={faPerson} />
+              </a>
+            </Link>
+            <Link href="/#projects">
+              <a
+                className={Styles.sidebarLink}
+                href="#projects"
+                aria-label="My Projects"
+                title="My Projects"
+              >
+                <FontAwesomeIcon icon={faCode} />
+              </a>
+            </Link>
+            <Link href="/#contact">
+              <a
+                className={Styles.sidebarLink}
+                href="#contact"
+                aria-label="Contact Me"
+                title="Contact Me"
+              >
+                <FontAwesomeIcon icon={faContactBook} />
+              </a>
+            </Link>
             <a
               className={Styles.sidebarLink}
               href="#"

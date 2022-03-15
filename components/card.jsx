@@ -16,13 +16,18 @@ export default ({ className, backgroundImage, icon, title, children }) => {
               className={Styles.cardBackground}
               src={backgroundImage}
               alt={title}
+              style={{
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center top",
+              }}
             />
           ) : (
             <Image
-              className={Styles.cardBackground}
               src={backgroundImage}
               alt={title}
               layout="fill"
+              objectFit="cover"
             />
           )}
         </div>

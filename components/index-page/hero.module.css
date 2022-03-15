@@ -40,7 +40,7 @@
   }
 }
 
-.homeBackground {
+.heroBackground {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -62,24 +62,24 @@
   z-index: -1;
 }
 
-.homeSectionContainer {
+.heroSectionContainer {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "headshot" "hero";
   gap: 32px;
 }
 
-.homeHeadshotPane {
+.heroHeadshotPane {
   grid-area: headshot;
   align-self: end;
 }
 
-.homeHeroPane {
+.heroHeroPane {
   grid-area: hero;
   align-self: start;
 }
 
-.homeHeadshot {
+.heroHeadshot {
   max-width: 240px;
   max-height: 240px;
   margin: 0px auto;
@@ -88,7 +88,7 @@
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
-.homeButtonStrip {
+.heroButtonStrip {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -96,7 +96,7 @@
   margin-top: 16px;
 }
 
-.homeButtonLeft {
+.heroButtonLeft {
   width: 50%;
   text-align: center;
   border: none;
@@ -112,12 +112,12 @@
   transition-property: background-size color;
 }
 
-.homeButtonLeft:hover {
+.heroButtonLeft:hover {
   background-color: transparent;
   background-size: 100%;
 }
 
-.homeButtonRight {
+.heroButtonRight {
   width: 50%;
   text-align: center;
   border: none;
@@ -133,32 +133,32 @@
   transition-property: background-size color;
 }
 
-.homeButtonRight:hover {
+.heroButtonRight:hover {
   background-color: transparent;
   background-size: 100%;
 }
 
 @media (min-width: 800px) {
-  .homeSectionContainer {
+  .heroSectionContainer {
     grid-template-rows: 1fr;
     grid-template-columns: 240px 1fr;
     grid-template-areas: "headshot hero";
   }
 
-  .homeHeadshotPane {
+  .heroHeadshotPane {
     align-self: center;
   }
 
-  .homeHeroPane {
+  .heroHeroPane {
     align-self: center;
   }
 
-  .homeHeadshot {
+  .heroHeadshot {
     margin: 0px;
     border-radius: 0%;
   }
 
-  .homeButtonLeft {
+  .heroButtonLeft {
     border-right: none;
     border-left: 1px solid var(--color-black);
     text-align: left;
@@ -172,27 +172,27 @@
 }
 
 @media (min-width: 1000px) {
-  .homeSectionContainer {
+  .heroSectionContainer {
     grid-template-columns: 320px 480px 1fr;
     grid-template-areas: "headshot hero .";
   }
 
-  .homeHeadshot {
+  .heroHeadshot {
     max-width: 320px;
     max-height: 320px;
   }
 
-  .homeBackground {
+  .heroBackground {
     background-position: right center;
   }
 
-  .homeSectionContainer {
+  .heroSectionContainer {
     justify-items: start;
   }
 }
 
 @media (min-width: 1200px) {
-  .homeSectionContainer {
+  .heroSectionContainer {
     grid-template-columns: 320px 600px 1fr;
   }
 }

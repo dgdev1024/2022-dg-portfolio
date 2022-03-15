@@ -1,5 +1,6 @@
 {
   "clients": {
+    "title": "Client Projects",
     "description": "These are projects which I have done for my clients.",
     "projects": [
       {
@@ -29,6 +30,7 @@
     ]
   },
   "frontend-mentor": {
+    "title": "Frontend Mentor Projects",
     "description": "These are my implementations of design challenges created by Frontend Mentor.",
     "projects": [
       {
@@ -412,6 +414,7 @@
     ]
   },
   "other-exercises": {
+    "title": "My Exercise Projects",
     "description": "These are some other, older projects which I have done to hone my web development expertise.",
     "projects": [
       {
@@ -480,6 +483,7 @@
     ]
   },
   "legacy-projects": {
+    "title": "My Legacy Projects",
     "description": "These are projects which date back to 2018 or earlier. These projects are no longer maintained and some of them are no longer live, but are posted here for historical purposes.",
     "projects": [
       {
