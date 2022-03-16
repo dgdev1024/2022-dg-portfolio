@@ -1,4 +1,6 @@
 .projectsSection {
+  height: auto;
+  min-height: unset;
   padding: 0px 0px 32px;
 }
 
@@ -9,7 +11,8 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .projectsCardButton {

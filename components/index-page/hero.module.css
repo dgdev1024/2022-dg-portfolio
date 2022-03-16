@@ -1,6 +1,6 @@
 @keyframes rotate-background {
   0% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   12.5% {
@@ -9,7 +9,7 @@
   }
 
   25% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   37.5% {
@@ -18,7 +18,7 @@
   }
 
   50% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   62.5% {
@@ -27,7 +27,7 @@
   }
 
   75% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
   87.5% {
@@ -36,7 +36,7 @@
   }
 
   100% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 }
 
@@ -52,7 +52,7 @@
   background-position: center;
   background-size: contain;
 
-  opacity: 0.2;
+  opacity: 0.1;
 
   animation-name: rotate-background;
   animation-duration: 60s;

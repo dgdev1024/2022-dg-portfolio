@@ -8,6 +8,7 @@ import Head from "next/head";
 import HeroSection from "../components/index-page/hero";
 import AboutSection from "../components/index-page/about";
 import ProjectsSection from "../components/index-page/projects";
+import ContactSection from "../components/index-page/contact";
 
 export default ({ randomProjects }) => (
   <>
@@ -18,6 +19,7 @@ export default ({ randomProjects }) => (
     <HeroSection />
     <AboutSection />
     <ProjectsSection randomProjects={randomProjects} />
+    <ContactSection />
   </>
 );
 
