@@ -97,9 +97,10 @@ export default () => {
             </Link>
             <a
               className={Styles.sidebarLink}
-              href="#"
+              href="/assets/resume.pdf"
               aria-label="Resume"
               title="Resume"
+              target="_blank"
             >
               <FontAwesomeIcon icon={faFileLines} />
             </a>
