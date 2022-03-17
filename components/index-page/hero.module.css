@@ -99,8 +99,10 @@
 .heroButtonLeft {
   width: 50%;
   text-align: center;
+  background-color: transparent;
   border: none;
   border-right: 1px solid var(--color-black);
+  box-shadow: none;
 
   text-align: right;
 
@@ -120,8 +122,10 @@
 .heroButtonRight {
   width: 50%;
   text-align: center;
+  background-color: transparent;
   border: none;
   border-left: 1px solid var(--color-black);
+  box-shadow: none;
 
   text-align: left;
 

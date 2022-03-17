@@ -1,8 +1,8 @@
 .card {
   position: relative;
-  min-height: 500px;
+  min-height: 520px;
   overflow: hidden;
-  background-color: var(--color-white-faded);
+  background-color: var(--color-silver-faded);
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -54,6 +54,9 @@
 .card:hover .cardTitleContainerWithBackgroundImage,
 .cardContianer:hover .cardTitleContainerWithBackgroundImage {
   background-color: transparent;
+}
+
+.cardHeading {
 }
 
 .cardBody {

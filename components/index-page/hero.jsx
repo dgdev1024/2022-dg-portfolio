@@ -15,7 +15,7 @@ export default () => (
         </div>
       </div>
       <div className={Styles.heroHeroPane}>
-        <p className="text textItalic">Hello, World! My name is</p>
+        <p className="text textItalic">Hello, world! My name is</p>
         <h1 className={`heading headingVeryLarge headingUppercase`}>
           Dennis Griffin
         </h1>

@@ -40,7 +40,7 @@ export default ({ className, backgroundImage, icon, title, children }) => {
         >
           {icon && <Fa icon={icon} />}
           <h3
-            className={`heading headingSmall headingCenter ${Styles.cardHeading}`}
+            className={`heading headingVerySmall headingCenter ${Styles.cardHeading}`}
           >
             {title}
           </h3>
