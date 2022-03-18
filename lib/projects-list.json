@@ -34,6 +34,15 @@
     "description": "These are my implementations of design challenges created by Frontend Mentor.",
     "projects": [
       {
+        "name": "QR Card Component",
+        "description": "My take on FM's \"QR Code Component\" challenge contains a bonus feature that allows users to create and save their own QR codes to their browser's localStorage.",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/gcojp0xrp0mrkfvft12x.jpg",
+        "pageUrl": "https://2022-fm-qr-code-component.vercel.app/",
+        "githubUrl": "https://github.com/dgdev1024/2022-fm-qr-code-component",
+        "technologies": ["Next.JS", "React.JS", "CSS3"],
+        "category": "Frontend"
+      },
+      {
         "name": "NFT Preview Card Component",
         "description": "My take on FM's \"NFT Preview Card Component\" challenge.",
         "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/y4ur70omu3nlunz45xkv.jpg",
