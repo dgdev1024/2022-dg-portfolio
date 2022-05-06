@@ -97,7 +97,7 @@ export default () => {
             </Link>
             <a
               className={Styles.sidebarLink}
-              href="/assets/resume.pdf"
+              href="/assets/resume_2022.pdf"
               aria-label="Resume"
               title="Resume"
               target="_blank"

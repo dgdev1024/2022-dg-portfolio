@@ -31,7 +31,7 @@ export default () => {
               experience in computer programming in general.
             </p>
             <a
-              href="/assets/resume.pdf"
+              href="/assets/resume_2022.pdf"
               target="_blank"
               className={`button ${Styles.aboutResumeButton}`}
             >
