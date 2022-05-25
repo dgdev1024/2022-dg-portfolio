@@ -1,4 +1,58 @@
 {
+  "free-code-camp": {
+    "title": "FreeCodeCamp Projects",
+    "description": "These are my implementations of project challenges created by FreeCodeCamp",
+    "projects": [
+      {
+        "name": "Timestamp Microservice (2022)",
+        "description": "My 2022 implementation of FreeCodeCamp's \"Timestamp Microservice\" challenge.",
+        "pageUrl": "https://2022-fcc-timestamp-microservice.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-timestamp-microservice",
+        "technologies": ["Node.JS", "Express.JS"],
+        "category": "Backend"
+      },
+      {
+        "name": "Request Header Parser Microservice (2022)",
+        "description": "My 2022 implementation of FreeCodeCamp's \"Request Header Parser Microservice\" challenge.",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-request-header-parser-microservice",
+        "pageUrl": "https://2022-fcc-request-header-parser.glitch.me/",
+        "technologies": ["Node.JS", "Express.JS"],
+        "category": "Backend"
+      },
+      {
+        "name": "URL Shortener Microservice (2022)",
+        "description": "My 2022 implementation of FreeCodeCamp's \"URL Shortener Microservice\" challenge.",
+        "pageUrl": "https://2022-fcc-url-shortener-microservice.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-url-shortener-microservice",
+        "technologies": ["Node.JS", "Express.JS", "Mongoose.JS", "MongoDB"],
+        "category": "Backend"
+      },
+      {
+        "name": "Exercise Tracker",
+        "description": "My implementation of FreeCodeCamp's \"Exercise Tracker\" challenge, featuring the posting and fetching of users and their exercises from a database.",
+        "pageUrl": "https://2022-fcc-exercise-tracker.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-exercise-tracker",
+        "technologies": ["Node.JS", "Express.JS", "Mongoose.JS", "MongoDB"],
+        "category": "Backend"
+      },
+      {
+        "name": "Metric-Imperial Converter",
+        "description": "My implementation of FreeCodeCamp's \"Metric-Imperial Converter\" challenge, built on a scaffolding provided by FCC. This is my first project to feature unit and functional tests using Chai and Mocha.",
+        "pageUrl": "https://2022-fcc-metric-imperial-converter.glitch.me/",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-exercise-tracker",
+        "technologies": ["Node.JS", "Express.JS", "Chai", "Mocha"],
+        "category": "Backend"
+      },
+      {
+        "name": "Issue Tracker",
+        "description": "My implementation of FreeCodeCamp's \"Issue Tracker\" challenge, built on a scaffolding provided by FCC. This project showcases the creation, reading, updating and deleting of project issues to and from a database, as well as passing unit and functional tests.",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-issue-tracker",
+        "pageUrl": "https://2022-fcc-issue-tracker.glitch.me/",
+        "technologies": ["Node.JS", "Express.JS", "Mongoose.JS", "MongoDB", "Chai", "Mocha"],
+        "category": "Backend"
+      }
+    ]
+  },
   "clients": {
     "title": "Client Projects",
     "description": "These are projects which I have done for my clients.",

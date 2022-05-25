@@ -10,6 +10,7 @@ import {
   faLaptop,
   faCode,
 } from "@fortawesome/free-solid-svg-icons";
+import { faFreeCodeCamp } from "@fortawesome/free-brands-svg-icons";
 import { useState, useEffect } from "react";
 import { getProjectsByCategory } from "../lib/projects";
 import HeroSection from "../components/projects-page/hero";
@@ -18,6 +19,7 @@ import ProjectsSection from "../components/projects-page/projects";
 const projectCategories = [
   { id: "", icon: faGlobe },
   { id: "clients", icon: faDollarSign },
+  { id: "free-code-camp", icon: faFreeCodeCamp },
   { id: "frontend-mentor", icon: faLaptop },
   { id: "other-exercises", icon: faCode },
   { id: "legacy-projects", icon: faClockRotateLeft },
