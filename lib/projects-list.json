@@ -48,7 +48,46 @@
         "description": "My implementation of FreeCodeCamp's \"Issue Tracker\" challenge, built on a scaffolding provided by FCC. This project showcases the creation, reading, updating and deleting of project issues to and from a database, as well as passing unit and functional tests.",
         "githubUrl": "https://github.com/dgdev1024/2022-fcc-issue-tracker",
         "pageUrl": "https://2022-fcc-issue-tracker.glitch.me/",
-        "technologies": ["Node.JS", "Express.JS", "Mongoose.JS", "MongoDB", "Chai", "Mocha"],
+        "technologies": [
+          "Node.JS",
+          "Express.JS",
+          "Mongoose.JS",
+          "MongoDB",
+          "Chai",
+          "Mocha"
+        ],
+        "category": "Backend"
+      },
+      {
+        "name": "Personal Library",
+        "description": "My implementation of FreeCodeCamp's \"Personal Library\" challenge, built on a scaffolding provided by FCC. This project features the creation, reading and deletion of books and comments with a database. Features passing unit, functional and headless browser tests.",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-personal-library",
+        "pageUrl": "https://2022-fcc-personal-library.glitch.me/",
+        "technologies": [
+          "Node.JS",
+          "Express.JS",
+          "Mongoose.JS",
+          "MongoDB",
+          "Chai",
+          "Mocha",
+          "Zombie.JS"
+        ],
+        "category": "Backend"
+      },
+      {
+        "name": "Sudoku Solver",
+        "description": "My implementation of FreeCodeCamp's \"Sudoku Solver\" challenge, built on a scaffolding provided by FCC. This project take a string representation of an incomplete Sudoku puzzle and solve it. It can also randomly generate Sudoku puzzles, as well. Features passing unit and functional tests.",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-sudoku-solver",
+        "pageUrl": "https://2022-dgdev1024-fcc-sudoku-solver.glitch.me/",
+        "technologies": ["Node.JS", "Express.JS", "Chai", "Mocha"],
+        "category": "Backend"
+      },
+      {
+        "name": "American-British Translator",
+        "description": "My implement of FreeCodeCamp's \"American-British Translator\" challenge, built on a scaffolding provided by FCC. This project showcases the translation of American-English dialect into British-English and vice versa. Features passing unit and functional tests and a strategy on unit test abstraction.",
+        "githubUrl": "https://github.com/dgdev1024/2022-fcc-american-british-translator",
+        "pageUrl": "https://2022-dgdev1024-fcc-american-british-translator.glitch.me/",
+        "technologies": ["Node.JS", "Express.JS", "Chai", "Mocha"],
         "category": "Backend"
       }
     ]
